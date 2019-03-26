@@ -22,6 +22,14 @@
 								<!-- <li><a href="#"><i class="fab fa-google"></i></a></li>
 								<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li> -->
 							</ul>
+							<div class="logos ml-sm-auto">
+							<ul class="logos_list">
+								<li><a href="#"><img src="images/logos_1.png" alt=""></a></li>
+								<li><a href="#"><img src="images/logos_2.png" alt=""></a></li>
+								<li><a href="#"><img src="images/logos_3.png" alt=""></a></li>
+								<li><a href="#"><img src="images/logos_4.png" alt=""></a></li>
+							</ul>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -61,7 +69,6 @@
 						<ul class="footer_list">
 							<li><a href="#">Minha Conta</a></li>
 							<li><a href="#">Como seguir o seu produto</a></li>
-							<li><a href="#">Lista de Desejos</a></li>
 							<li><a href="#">Atendimento ao Cliente</a></li>
 							<li><a href="#">Devolução / Troca</a></li>
 							<li><a href="#">Perguntas Frequentes</a></li>

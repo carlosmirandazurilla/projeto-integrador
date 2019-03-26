@@ -11,22 +11,22 @@
                     <div class="top_bar_content ml-auto">
                         <div class="top_bar_menu">
                             <ul class="standard_dropdown top_bar_dropdown">
-                                <li>
+                                <!-- <li>
                                     <a href="#">Português<i class="fas fa-chevron-down"></i></a>
                                     <ul>
                                         <li><a href="#">Inglês</a></li>
                                         <!-- <li><a href="#">Spanish</a></li>
                                         <li><a href="#">Japanese</a></li> -->
-                                    </ul>
-                                </li>
-                                <li>
+                                    <!-- </ul> -->
+                                <!-- </li> -->
+                                <!-- <li>
                                     <a href="#">R$ Real Brasileiro<i class="fas fa-chevron-down"></i></a>
                                     <ul>
                                         <li><a href="#">$ US dollar</a></li>
                                         <!-- <li><a href="#">GBP British Pound</a></li>
                                         <li><a href="#">JPY Japanese Yen</a></li> -->
-                                    </ul>
-                                </li>
+                                    <!-- </ul>
+                                </li> -->
                             </ul>
                         </div>
                         <div class="top_bar_user">
@@ -60,7 +60,7 @@
                             <div class="header_search_form_container">
                                 <form action="#" class="header_search_form clearfix">
                                     <input type="search" required="required" class="header_search_input" placeholder="Buscar...">
-                                    <div class="custom_dropdown">
+                                    <!-- <div class="custom_dropdown">
                                         <div class="custom_dropdown_list">
                                             <span class="custom_dropdown_placeholder clc">Categorias</span>
                                             <i class="fas fa-chevron-down"></i>
@@ -73,7 +73,7 @@
                                                 <li><a class="clc" href="#">Smartphones</a></li> 
                                             </ul>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <button type="submit" class="header_search_button trans_300" value="Submit"><img src="images/search.png" alt=""></button>
                                 </form>
                             </div>
@@ -85,10 +85,10 @@
                 <div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
                     <div class="wishlist_cart d-flex flex-row align-items-center justify-content-end">
                         <div class="wishlist d-flex flex-row align-items-center justify-content-end">
-                            <div class="wishlist_icon"><img src="images/heart.png" alt=""></div>
+                            <!-- <div class="wishlist_icon"><img src="images/heart.png" alt=""></div> -->
                             <div class="wishlist_content">
-                                <div class="wishlist_text"><a href="#">Lista de Desejos</a></div>
-                                <div class="wishlist_count">115</div>
+                                <!-- <div class="wishlist_text"><a href="#">Lista de Desejos</a></div>
+                                <div class="wishlist_count">115</div> -->
                             </div>
                         </div>
 
@@ -135,13 +135,14 @@
                                     <!-- <a href="#">Livros<i class="fas fa-chevron-right"></i></a>
                                     <ul> -->
                                         <li class="hassubs">
-                                            <a href="#">Livros<i class="fas fa-chevron-right"></i></a>
-                                            <ul>
+                                            <a href="#">Livros</a>
+                                            <!-- <i class="fas fa-chevron-right"></i> -->
+                                            <!-- <ul>
                                                 <li><a href="#">Livro 1<i class="fas fa-chevron-right"></i></a></li>
                                                 <li><a href="#">Livro 2 <i class="fas fa-chevron-right"></i></a></li>
                                                 <li><a href="#">Livro 3<i class="fas fa-chevron-right"></i></a></li>
                                                 <li><a href="#">Livro 4<i class="fas fa-chevron-right"></i></a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <!-- <li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
                                         <li><a href="#">Menu Item<i class="fas fa-chevron-right"></i></a></li>
@@ -162,7 +163,7 @@
                         <div class="main_nav_menu ml-auto">
                             <ul class="standard_dropdown main_nav_dropdown">
                                 <li><a href="#">Home<i class="fas fa-chevron-down"></i></a></li>
-                                <li class="hassubs">
+                                <!-- <li class="hassubs">
                                     <a href="#">Destaques<i class="fas fa-chevron-down"></i></a>
                                     <ul>
                                         <li>
@@ -193,7 +194,7 @@
                                         <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
                                         <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
                                     </ul>
-                                </li>
+                                </li> -->
                                 <!-- <li class="hassubs">
                                     <a href="#">Pages<i class="fas fa-chevron-down"></i></a>
                                     <ul>
