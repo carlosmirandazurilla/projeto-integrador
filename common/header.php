@@ -31,8 +31,8 @@
                         </div>
                         <div class="top_bar_user">
                             <div class="user_icon"><img src="images/user.svg" alt=""></div>
-                            <div><a href="#">Faça seu cadastro</a></div>
-                            <div><a href="#">Entrar</a></div>
+                            <div><a href="cadastroSimples.php">Faça seu cadastro</a></div>
+                            <div><a href="login.php">Entrar</a></div>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                 <!-- Logo -->
                 <div class="col-lg-2 col-sm-3 col-3 order-1">
                     <div class="logo_container">
-                        <div class="logo"><a href=""><img class="imageLogo" src="images/logoAlternate.png"></a></div>
+                        <div class="logo"><a href="#"><img class="imageLogo" src="images/logoAlternate.png"></a></div>
                     </div>
                 </div>
 
@@ -128,13 +128,16 @@
                                 <div class="cat_menu_text">Categorias</div>
                             </div>
 
-                            <ul class="cat_menu">
+                            <!-- Enable dropdown through JavaScript -->
+                            <ul class="cat_menu d-none">
                                 <!-- <li><a href="#">Livros <i class="fas fa-chevron-right ml-auto"></i></a></li>
                                 <li><a href="#">Cameras & Photos<i class="fas fa-chevron-right"></i></a></li>
                                 <li class="hassubs"> -->
                                     <!-- <a href="#">Livros<i class="fas fa-chevron-right"></i></a>
                                     <ul> -->
-                                        <li class="hassubs">
+
+                                        <!-- Enable dropdown through JavaScript -->
+                                        <li class="hassubs d-none">
                                             <a href="#">Livros</a>
                                             <!-- <i class="fas fa-chevron-right"></i> -->
                                             <!-- <ul>

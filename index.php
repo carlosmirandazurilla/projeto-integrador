@@ -1,8 +1,8 @@
-	<!-- Header -->
-	<?php
-		$titulo = "Mercado Exchange";
-		include 'common/head.php';
-	?>
+<!-- Header -->
+<?php
+	$titulo = "Mercado Exchange";
+	include 'common/head.php';
+?>
 
 
 
