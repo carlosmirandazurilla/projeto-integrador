@@ -5,7 +5,13 @@ namespace App\Exceptions;
 use Exception;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Support\Facades\Log;
+use Symfony\Component\HttpKernel\Exception\HttpException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
+/**
+ * @codeCoverageIgnore
+ */
 class Handler extends ExceptionHandler
 {
     /**
@@ -44,6 +50,19 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
+        if ($exception instanceof NotFoundHttpException) {
+            return response()->view('layouts.errors.404', [], 404);
+        } elseif ($exception instanceof HttpException && $exception->getStatusCode() == 403) {
+            return response()->view(
+                'layouts.errors.403',
+                ['error' => 'Sorry, this page is restricted to authorized users only.'],
+                403
+            );
+        } elseif ($exception instanceof HttpException) {
+            Log::info($exception->getMessage());
+            return response()->view('layouts.errors.503', ['error' => $exception->getTrace()], 500);
+        }
+
         return parent::render($request, $exception);
     }
 
