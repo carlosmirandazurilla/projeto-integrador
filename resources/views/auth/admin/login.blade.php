@@ -19,7 +19,7 @@
         <!-- /.login-logo -->
         @include('layouts.errors-and-messages')
         <div class="login-box-body">
-            <p class="login-box-msg">Sign in to start your session</p>
+            <p class="login-box-msg">Entrar na sua sessão</p>
 
             <form action="{{ route('admin.login') }}" method="post">
                 {{ csrf_field() }}
@@ -28,7 +28,7 @@
                     <span class="fa fa-envelope form-control-feedback"></span>
                 </div>
                 <div class="form-group has-feedback">
-                    <input name="password" type="password" class="form-control" placeholder="Password">
+                    <input name="password" type="password" class="form-control" placeholder="Senha">
                     <span class="fa fa-lock form-control-feedback"></span>
                 </div>
                 <div class="row">
@@ -52,7 +52,7 @@
             </div>
             <!-- /.social-auth-links -->
 
-            <a href="#">I forgot my password</a><br>
+            <a href="#">Esqueceu a senha</a><br>
             <a href="{{ url('/') }}" class="text-center">Register a new membership</a>
 
         </div>

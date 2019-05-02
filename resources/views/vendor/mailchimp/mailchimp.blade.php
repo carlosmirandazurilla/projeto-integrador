@@ -1,4 +1,4 @@
-<section class="subscribe-section t100">
+{{-- <section class="subscribe-section t100">
     @if(session()->has('message'))
         <div class="box no-border">
             <div class="box-tools">
@@ -31,4 +31,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}

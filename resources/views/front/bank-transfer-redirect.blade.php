@@ -6,7 +6,7 @@
             <div class="col-md-12">
                 <ol class="breadcrumb">
                     <li><a href="{{ route('home') }}"> <i class="fa fa-home"></i> Home</a></li>
-                    <li class="active">Shopping Cart</li>
+                    <li class="active">Carrinho</li>
                 </ol>
             </div>
             <div class="col-md-12">
@@ -16,9 +16,9 @@
                         <h3>Review</h3>
                         <hr>
                         <ul class="list-unstyled">
-                            <li>Items: {{ config('cart.currency_symbol') }} {{ $subtotal }}</li>
-                            <li>Tax: {{ config('cart.currency_symbol') }} {{ $tax }}</li>
-                            <li>Shipping Fee: {{ config('cart.currency_symbol') }} {{ $shipping }}</li>
+                            <li>Itens: {{ config('cart.currency_symbol') }} {{ $subtotal }}</li>
+                            <li>Taxa Administrativa: {{ config('cart.currency_symbol') }} {{ $tax }}</li>
+                            <li>Frete: {{ config('cart.currency_symbol') }} {{ $shipping }}</li>
                             <li>Total: {{ config('cart.currency_symbol') }} {{ $total }}</li>
                         </ul>
                     </div>
@@ -33,8 +33,8 @@
                             <p><small class="text-warning text">* {{ config('bank-transfer.note') }}</small></p>
                             <hr>
                             <div class="btn-group">
-                                <a href="{{ route('checkout.index') }}" class="btn btn-default">Back</a>
-                                <button onclick="return confirm('Are you sure?')" class="btn btn-primary">Pay now with Bank Transfer</button>
+                                <a href="{{ route('checkout.index') }}" class="btn btn-default">Voltar</a>
+                                <button onclick="return confirm('Are you sure?')" class="btn btn-primary">Pague com Transferência</button>
                                 <input type="hidden" id="billing_address" name="billing_address" value="{{ $billingAddress }}">
                                 <input type="hidden" name="shipment_obj_id" value="{{ $shipmentObjId }}">
                                 <input type="hidden" name="rate" value="{{ $rateObjectId }}">

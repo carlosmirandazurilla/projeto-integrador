@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-12">
                 <hr>
-                <p class="alert alert-warning">You have cancelled your order. Maybe you want to <a href="{{ route('home') }}">checkout other items?</a></p>
+                <p class="alert alert-warning">Você cancelou sua ordem. Talvez gostaría de <a href="{{ route('home') }}">ver outros itens?</a></p>
             </div>
         </div>
     </div>

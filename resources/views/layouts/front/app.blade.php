@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9325492-23"></script>
@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ config('app.name') }}</title>
-    <title>Laracom - Laravel FREE E-Commerce Software</title>
+    <title>Mercado Sustentável</title>
     <meta name="description" content="Modern open-source e-commerce framework for free">
     <meta name="tags" content="modern, opensource, open-source, e-commerce, framework, free, laravel, php, php7, symfony, shop, shopping, responsive, fast, software, blade, cart, test driven, adminlte, storefront">
     <meta name="author" content="Jeff Simons Decena">
@@ -63,11 +63,11 @@
             <div class="pull-right">
                 <ul class="nav navbar-nav navbar-right">
                     @if(auth()->check())
-                        <li><a href="{{ route('accounts', ['tab' => 'profile']) }}"><i class="fa fa-home"></i> My Account</a></li>
-                        <li><a href="{{ route('logout') }}"><i class="fa fa-sign-out"></i> Logout</a></li>
+                        <li><a href="{{ route('accounts', ['tab' => 'profile']) }}"><i class="fa fa-home"></i> Minha Conta</a></li>
+                        <li><a href="{{ route('logout') }}"><i class="fa fa-sign-out"></i> Sair</a></li>
                     @else
-                        <li><a href="{{ route('login') }}"> <i class="fa fa-lock"></i> Login</a></li>
-                        <li><a href="{{ route('register') }}"> <i class="fa fa-sign-in"></i> Register</a></li>
+                        <li><a href="{{ route('login') }}"> <i class="fa fa-lock"></i> Entrar</a></li>
+                        <li><a href="{{ route('register') }}"> <i class="fa fa-sign-in"></i> Cadastre-se</a></li>
                     @endif
                     <li id="cart" class="menubar-cart">
                         <a href="{{ route('cart.index') }}" title="View Cart" class="awemenu-icon menu-shopping-cart">
@@ -90,7 +90,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="{{ route('home') }}">{{ config('app.name') }}</a>
+                    <a class="navbar-brand" href="{{ route('home') }}"><img src="../images/MsLogoPageFinal.png" ></a>
                 </div>
                 <div class="col-md-10">
                     @include('layouts.front.header-cart')
