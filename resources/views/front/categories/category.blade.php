@@ -14,7 +14,7 @@
         <hr>
         <div class="row">
             <div class="category-top col-md-12">
-                <h2>{{ $category->name }}</h2>
+                <h2>Livros</h2>
                 {!! $category->description !!}
             </div>
         </div>

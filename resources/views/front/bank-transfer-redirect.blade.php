@@ -34,7 +34,7 @@
                             <hr>
                             <div class="btn-group">
                                 <a href="{{ route('checkout.index') }}" class="btn btn-default">Voltar</a>
-                                <button onclick="return confirm('Are you sure?')" class="btn btn-primary">Pague com Transferência</button>
+                                <button onclick="return confirm('Você tem certeza?')" class="btn btn-primary">Pague com Transferência</button>
                                 <input type="hidden" id="billing_address" name="billing_address" value="{{ $billingAddress }}">
                                 <input type="hidden" name="shipment_obj_id" value="{{ $shipmentObjId }}">
                                 <input type="hidden" name="rate" value="{{ $rateObjectId }}">

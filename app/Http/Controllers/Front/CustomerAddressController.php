@@ -92,7 +92,7 @@ class CustomerAddressController extends Controller
         $this->addressRepo->createAddress($request->except('_token', '_method'));
 
         return redirect()->route('accounts', ['tab' => 'address'])
-            ->with('message', 'Address creation successful');
+            ->with('message', 'Endereço criado com successo!');
     }
 
     /**
